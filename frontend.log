@@ -14,9 +14,21 @@ Default File Extension: none
 
 Available on:
   http://127.0.0.1:8000
-  http://10.108.2.217:8000
+  http://10.173.175.229:8000
 Hit CTRL-C to stop the server
 
-[2025-11-24T20:39:13.167Z]  "GET /" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15"
-[2025-11-24T20:39:13.180Z]  "GET /css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15"
-[2025-11-24T20:39:13.181Z]  "GET /js/app.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15"
+[2026-11-10T10:01:00.065Z]  "GET /" "curl/8.7.1"
+[2026-11-10T10:01:01.865Z]  "GET /" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15"
+[2026-11-10T10:01:02.606Z]  "GET /css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15"
+[2026-11-10T10:01:02.611Z]  "GET /LOGO.jpeg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15"
+[2026-11-10T10:01:02.623Z]  "GET /js/app.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15"
+[2026-11-10T10:01:02.625Z]  "GET /js/map.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15"
+[2026-11-10T10:01:03.726Z]  "GET /favicon.ico" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15"
+[2026-11-10T10:01:03.728Z]  "GET /favicon.ico" Error (404): "Not found"
+[2026-11-10T10:01:03.756Z]  "GET /apple-touch-icon-precomposed.png" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari"
+[2026-11-10T10:01:03.757Z]  "GET /apple-touch-icon-precomposed.png" Error (404): "Not found"
+[2026-11-10T10:01:03.758Z]  "GET /apple-touch-icon.png" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari"
+[2026-11-10T10:01:03.758Z]  "GET /apple-touch-icon.png" Error (404): "Not found"
+[2026-11-10T10:01:03.759Z]  "GET /favicon.ico" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari"
+[2026-11-10T10:01:03.759Z]  "GET /favicon.ico" Error (404): "Not found"
+http-server stopped.

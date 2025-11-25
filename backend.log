@@ -1,0 +1,210 @@
+
+> sau-er-transport-system@2.1.0 dev
+> nodemon server.js
+
+[33m[nodemon] 3.1.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+
+🚀 SAU Transport Server running on port 3000
+📱 Access: http://localhost:3000
+
+🔑 Demo Login Credentials:
+   👨‍💼 Admin: admin@sau.ac.in / password
+   🎓 Student: amit.sharma@sau.ac.in / password
+   🚗 Driver: rajesh.driver@sau.ac.in / password
+
+✅ Backend ready with REAL-TIME DELETE events!
+✅ User connected: CCcvMt3HPrx8oDSFAAAB
+🔑 LOGIN ATTEMPT: { email: 'admin@GMAIL.COM', userType: 'admin' }
+Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+❌ Database connection failed: 
+❌ Login error: Error
+    at Object.createConnectionPromise [as createConnection] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/mysql2/promise.js:19:31)
+    at createConnection (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:59:40)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:154:34
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:284:15
+    at router.process_params (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:280:10) {
+  code: 'ECONNREFUSED',
+  errno: undefined,
+  sqlState: undefined
+}
+🔑 LOGIN ATTEMPT: { email: 'admin@gmail.com', userType: 'admin' }
+Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+❌ Database connection failed: 
+❌ Login error: Error
+    at Object.createConnectionPromise [as createConnection] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/mysql2/promise.js:19:31)
+    at createConnection (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:59:40)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:154:34
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:284:15
+    at router.process_params (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:280:10) {
+  code: 'ECONNREFUSED',
+  errno: undefined,
+  sqlState: undefined
+}
+🔑 LOGIN ATTEMPT: { email: 'admin@sau.ac.in', userType: 'admin' }
+Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+❌ Database connection failed: 
+❌ Login error: Error
+    at Object.createConnectionPromise [as createConnection] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/mysql2/promise.js:19:31)
+    at createConnection (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:59:40)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:154:34
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:284:15
+    at router.process_params (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:280:10) {
+  code: 'ECONNREFUSED',
+  errno: undefined,
+  sqlState: undefined
+}
+🔑 LOGIN ATTEMPT: { email: 'admin@sau.ac.in', userType: 'admin' }
+Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+❌ Database connection failed: 
+❌ Login error: Error
+    at Object.createConnectionPromise [as createConnection] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/mysql2/promise.js:19:31)
+    at createConnection (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:59:40)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:154:34
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:284:15
+    at router.process_params (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:280:10) {
+  code: 'ECONNREFUSED',
+  errno: undefined,
+  sqlState: undefined
+}
+🔑 LOGIN ATTEMPT: { email: 'admin@sau.ac.in', userType: 'admin' }
+Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+❌ Database connection failed: 
+❌ Login error: Error
+    at Object.createConnectionPromise [as createConnection] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/mysql2/promise.js:19:31)
+    at createConnection (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:59:40)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:154:34
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:284:15
+    at router.process_params (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:280:10) {
+  code: 'ECONNREFUSED',
+  errno: undefined,
+  sqlState: undefined
+}
+🔑 LOGIN ATTEMPT: { email: 'admin@sau.ac.in', userType: 'admin' }
+Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+❌ Database connection failed: 
+❌ Login error: Error
+    at Object.createConnectionPromise [as createConnection] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/mysql2/promise.js:19:31)
+    at createConnection (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:59:40)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:154:34
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:284:15
+    at router.process_params (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:280:10) {
+  code: 'ECONNREFUSED',
+  errno: undefined,
+  sqlState: undefined
+}
+🔑 LOGIN ATTEMPT: { email: 'admin@sau.ac.in', userType: 'admin' }
+Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+❌ Database connection failed: 
+❌ Login error: Error
+    at Object.createConnectionPromise [as createConnection] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/mysql2/promise.js:19:31)
+    at createConnection (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:59:40)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:154:34
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:284:15
+    at router.process_params (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:280:10) {
+  code: 'ECONNREFUSED',
+  errno: undefined,
+  sqlState: undefined
+}
+🔑 LOGIN ATTEMPT: { email: 'admin@sau.ac.in', userType: 'student' }
+Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+❌ Database connection failed: 
+❌ Login error: Error
+    at Object.createConnectionPromise [as createConnection] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/mysql2/promise.js:19:31)
+    at createConnection (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:59:40)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:154:34
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:284:15
+    at router.process_params (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:280:10) {
+  code: 'ECONNREFUSED',
+  errno: undefined,
+  sqlState: undefined
+}
+🔑 LOGIN ATTEMPT: { email: 'amit.sharma@sau.ac.in', userType: 'student' }
+Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+❌ Database connection failed: 
+❌ Login error: Error
+    at Object.createConnectionPromise [as createConnection] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/mysql2/promise.js:19:31)
+    at createConnection (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:59:40)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:154:34
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:284:15
+    at router.process_params (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:280:10) {
+  code: 'ECONNREFUSED',
+  errno: undefined,
+  sqlState: undefined
+}
+🔑 LOGIN ATTEMPT: { email: 'amit.sharma@sau.ac.in', userType: 'student' }
+Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+❌ Database connection failed: 
+❌ Login error: Error
+    at Object.createConnectionPromise [as createConnection] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/mysql2/promise.js:19:31)
+    at createConnection (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:59:40)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/server.js:154:34
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:284:15
+    at router.process_params (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/sp/Desktop/Projects/Vahan/SAU_Transport copy 4/backend/node_modules/express/lib/router/index.js:280:10) {
+  code: 'ECONNREFUSED',
+  errno: undefined,
+  sqlState: undefined
+}
